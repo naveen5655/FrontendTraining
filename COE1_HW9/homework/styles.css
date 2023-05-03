@@ -1,0 +1,63 @@
+#root{
+    display: flex;
+    flex-direction: column;
+}
+.listPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    margin-top: 10px;
+    padding: 10px;
+}
+.modifyItem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: small;
+    margin-top: 10px;
+} 
+.formButtons{
+    margin: 10px;
+    justify-items: stretch;
+}
+button{
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius: 8px;
+    margin: 4px 2px;
+ }
+ .hidden{
+    display: none;
+ }
+ .alertMessage {
+    position: absolute;
+    background-color: lightgrey;
+    color: white;
+    float: left;
+    padding: 15px;
+    text-align: center;
+}
+
+li.listItem{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+}
+#list{
+    display: inline-flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+#list > div{
+    flex-direction: row;
+}
+.contentItem{
+    cursor: pointer;
+}
