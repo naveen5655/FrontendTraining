@@ -1,0 +1,71 @@
+/* START: Task 1 Styles */
+.all{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.white{
+    background-color: white;
+    padding: 3em;
+}
+
+.yellow{
+    background-color: yellow;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+
+.green{
+    background-color: green;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+.blue{
+    background-color: blue;
+    padding: 3em;
+    text-align: center;
+    color: white;
+}
+/* END: Task 1 Styles */
+
+/* START: Task 2 Styles */
+#task2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+#task2 .notification {
+    padding: 12px;
+    background-color: pink;
+    color: white;
+    border: 1px solid black;
+}
+.successMessage {
+    background-color: green;
+    color: white;
+    border: 1px solid black;
+    padding: 12px;
+}
+.hidden {
+    display: none;
+}
+
+#form_container {
+    margin-top: 20px;
+}
+#form_container input,
+button {
+    padding: 10px;
+}
+#form_container input {
+    width: 288px;
+}/* END: Task 2 Styles */
+
+/* START: Task 3 Styles */
+
+/* END: Task 3 Styles */
